@@ -13,17 +13,23 @@ export const projects = [
     link: 'https://github.com/its-eliii/LoFo'
   },
   {
-    title: 'Simple Car Parking System',
-    description: 'Python app with slot selection, ID generation, and time-based pricing. Stores data in an array-based structure.',
-    tech: ['Python'],
-    link: 'https://github.com/its-eliii/ProgSystem'
-  },
-  {
     title: 'Task Management System (TaskMan)',
     description: 'A task management web app that features task creation, status tracking, filtering, and responsive UI.',
     tech: ['React.js(Vite)', 'Node.js', 'Express', 'MySQL'],
     link: 'https://github.com/its-eliii/taskmgmnt'
   }, 
+  {
+  title: "Personal Portfolio",
+  description: "A responsive portfolio website built to showcase my skills, projects, and experiences. Features modern design, smooth animations, and a clean layout optimized for both desktop and mobile devices.",
+  tech: ["React", "CSS", "JavaScript"],
+  link: "https://github.com/its-eliii/eliiiportfolio", // replace with actual deployed link
+  },
+  {
+    title: 'Simple Car Parking System',
+    description: 'Python app with slot selection, ID generation, and time-based pricing. Stores data in an array-based structure.',
+    tech: ['Python'],
+    link: 'https://github.com/its-eliii/ProgSystem'
+  },
   {
     title: 'Simple Recipe Book System',
     description: 'Simple recipe manager built with HTML, CSS, and JavaScript. Allows users to browse, search, and save favorite recipes.',
