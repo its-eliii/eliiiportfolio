@@ -1,0 +1,97 @@
+.experience {
+  padding: 6rem 2rem;
+  background: #f9fafb;
+  text-align: center;
+}
+
+.exp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.exp-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: left;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  position: relative;
+}
+
+.exp-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.exp-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #e0f2fe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  color: #0284c7;
+  font-size: 1.4rem;
+  box-shadow: 0 4px 10px rgba(2, 132, 199, 0.2);
+  transition: background 0.3s, transform 0.3s;
+}
+
+.exp-card:hover .exp-icon {
+  background: #0284c7;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.exp-card h3 {
+  font-size: 1.3rem;
+  color: #0f172a;
+  margin-bottom: 0.3rem;
+}
+
+.exp-company {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #475569;
+  margin-bottom: 0.8rem;
+}
+
+.exp-duration {
+  display: inline-block;
+  background: #e0f2fe;
+  color: #0369a1;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.exp-card ul {
+  margin-top: 0.5rem;
+  padding-left: 1.2rem;
+  list-style: none;
+}
+
+.exp-card li {
+  margin-bottom: 0.5rem;
+  color: #334155;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.exp-card li::before {
+  content: "✔";
+  color: #22c55e;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
