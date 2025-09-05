@@ -22,7 +22,7 @@ export const projects = [
   title: "Personal Portfolio",
   description: "A responsive portfolio website built to showcase my skills, projects, and experiences. Features modern design, smooth animations, and a clean layout optimized for both desktop and mobile devices.",
   tech: ["React", "CSS", "JavaScript"],
-  link: "https://github.com/its-eliii/eliiiportfolio", // replace with actual deployed link
+  link: "https://github.com/its-eliii/eliiiportfolio", 
   },
   {
     title: 'Simple Car Parking System',
