@@ -25,7 +25,7 @@ function Hero() {
                 <a href="#projects" className="cta primary">
                 View My Work
                 </a>
-                <a href="./src/assets/files/CV_REY-RENZ-ELI.pdf" download className="cta secondary">
+                <a href="./files/CV_REY-RENZ-ELI.pdf" download className="cta secondary">
                 Download CV
                 </a>
             </div>
