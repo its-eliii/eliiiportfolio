@@ -44,30 +44,45 @@ export const skills = {
   tools: ['Git', 'VS Code', 'MS Office'],
   networking: ['LAN cabling', 'Network troubleshooting'],
   videoEditing: ['Sony Vegas Pro', 'Capcut'],
-  softSkills: ['Communication', 'Teamwork', 'Organization']
+  softSkills: ['Communication', 'Teamwork', 'Organization', 'Problem-solving', 'Adaptability', 'Time management',]
 };
 
 export const experience = [
   {
-    role: 'Student Assistant',
+    role: 'IT Support (Student Assistant)',
     company: 'Systems Plus Computer College',
     duration: 'Jan 2022 – Jan 2024',
     tasks: [
       'Admin support and technical troubleshooting',
-      'LAN cabling and network setup',
-      'Graphic and video content creation',
-      'Event coordination and phone support'
+      'Resolved hardware and software issues for campus users',
+      'Installed, configured, and maintained lab workstations',
+      'Assisted in LAN cabling, network setup, and troubleshooting',
+      'Managed IT documentation, inventory, and event equipment',
+      'Fielded technical and administrative support inquiries'
     ]
   },
-  {role: 'Web Developer Intern',
+  {
+    role: 'Web Developer Intern',
     company: 'USHER Technologies Inc.',
-    duration: 'Sept 2024 – Dec 2025',
+    duration: 'Sept 2024 – Dec 2024',
     tasks: [
       'Front-end development with React',
       'Basic backend tasks',
       'UI/UX design in Figma',
       'Portal updates and data visualization',
       'Version control with Git'
+    ]
+  },
+  {
+    role: 'Customer Service Representative',
+    company: 'Alorica Philippines',
+    duration: 'Oct 2025 – Mar 2026',
+    tasks: [
+      'Handled inbound calls regarding healthcare inquiries, billing, and eligibility',
+      'Documented cases and collaborated with teams for timely resolutions',
+      'Analyzed customer accounts and maintained records across multiple systems',
+      'Provided feedback on recurring issues to drive process improvements',
+      'Consistently met performance metrics including AHT, CSAT, and QA'
     ]
   }
 ];

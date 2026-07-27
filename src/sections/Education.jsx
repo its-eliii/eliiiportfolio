@@ -34,7 +34,7 @@ function Education() {
                             <span className="badge"><FaAward /> Service Oriented Award</span>
                             <span className="badge"><FaAward /> Loyalty Award</span>
                         </div>
-                        <p className="edu-extra">🎓 GWA: 1.32 | 📌 QCYDO Economic Scholar</p>
+                        <p className="edu-extra">🎓 GWA: 1.33 | 📌 QCYDO Economic Scholar</p>
                     </div>
                 </div>
             </div>

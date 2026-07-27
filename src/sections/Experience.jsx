@@ -2,10 +2,10 @@
 import '../styles/Experience.css';
 import SectionTitle from '../components/SectionTitle';
 import { experience } from '../data/data';
-import { Briefcase, Code, Laptop } from "lucide-react"; // you can swap icons
+import { Briefcase, Code, Headphones } from 'lucide-react';
 
 function Experience() {
-  const icons = [<Briefcase />, <Code />, <Laptop />]; // pick per exp
+  const icons = [<Briefcase />, <Code />, <Headphones />];
 
   return (
     <section id="experience" className="experience">

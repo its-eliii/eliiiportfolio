@@ -12,18 +12,24 @@ function About() {
                 </div>
                 <div className="about-text">
                 <p>
-                    I'm a <span className="highlight">BS in Information Technology graduate</span>, 
-                    <strong> cum laude</strong>, with hands-on experience in 
-                    <span className="highlight"> technical support</span>, 
-                    <span className="highlight"> multimedia production</span>, 
-                    and <span className="highlight"> web development</span>. 
+                    I'm a <span className="highlight">BS in Information Technology graduate</span> 
+                    (<strong>Cum Laude</strong>) and a certified 
+                    <span className="highlight">Civil Service Professional</span> 
+                    with a unique blend of <span className="highlight">full-stack development skills</span>, 
+                    <span className="highlight">technical support experience</span>, 
+                    and <span className="highlight">client-facing customer service expertise</span>.
                 </p>
                 <p>
                     I thrive in collaborative environments and enjoy turning 
-                    <em>complex requirements</em> into clean, user-friendly solutions. 
-                    My journey blends academic excellence with real-world impact — 
-                    from <strong>student leadership</strong> to 
-                    <strong> full-stack development</strong>.
+                    <span className="highlight">complex technical requirements</span> 
+                    into clean, user-friendly solutions. 
+                    My journey blends academic excellence as a 
+                    <span className="highlight">Cum Laude IT graduate</span> 
+                    with real-world impact—bridging 
+                    <span className="highlight">full-stack technical knowledge</span>, 
+                    <span className="highlight">hands-on IT support</span>, 
+                    and <span className="highlight">customer service</span> 
+                    to optimize system reliability, streamline processes, and deliver exceptional end-user support.
                 </p>
                 </div>
             </div>
