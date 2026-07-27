@@ -14,7 +14,7 @@ function About() {
                 <p>
                     I'm a <span className="highlight">BS in Information Technology graduate </span> 
                     (<strong>Cum Laude</strong>) and a certified 
-                    <span className="highlight"> Civil Service Professional</span> 
+                    <span className="highlight"> Civil Service Professional </span> 
                     with a unique blend of <strong>full-stack development skills</strong>, 
                     <strong> technical support experience</strong>, 
                     and <strong>client-facing customer service expertise</strong>.
