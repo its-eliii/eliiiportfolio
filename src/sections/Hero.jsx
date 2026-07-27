@@ -15,17 +15,17 @@ function Hero() {
             <h1>
                 Hi, I&apos;m <span className="highlight">Eli    </span>
             </h1>
-            <h2 className="subtitle">Full-Stack Web Developer</h2>
+            <h2 className="subtitle">IT Specialist | Web Developer</h2>
             <p>
-                I build modern, responsive, and user-friendly web applications with
-                precision and creativity. Turning ideas into digital experiences is
-                what I love to do.
+                I bridge the gap between reliable IT operations and modern web development. 
+                From troubleshooting systems to building responsive software solutions, 
+                I turn technical challenges into seamless digital experiences.
             </p>
             <div className="cta-group">
                 <a href="#projects" className="cta primary">
                 View My Work
                 </a>
-                <a href="./files/CV_REY-RENZ-ELI.pdf" download className="cta secondary">
+                <a href="./files/CV-REY_RENZELI.pdf" download className="cta secondary">
                 Download CV
                 </a>
             </div>

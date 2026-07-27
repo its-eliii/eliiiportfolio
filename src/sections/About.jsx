@@ -12,23 +12,23 @@ function About() {
                 </div>
                 <div className="about-text">
                 <p>
-                    I'm a <span className="highlight">BS in Information Technology graduate</span> 
+                    I'm a <span className="highlight">BS in Information Technology graduate </span> 
                     (<strong>Cum Laude</strong>) and a certified 
-                    <span className="highlight">Civil Service Professional</span> 
-                    with a unique blend of <span className="highlight">full-stack development skills</span>, 
-                    <span className="highlight">technical support experience</span>, 
-                    and <span className="highlight">client-facing customer service expertise</span>.
+                    <span className="highlight"> Civil Service Professional</span> 
+                    with a unique blend of <strong>full-stack development skills</strong>, 
+                    <strong> technical support experience</strong>, 
+                    and <strong>client-facing customer service expertise</strong>.
                 </p>
                 <p>
                     I thrive in collaborative environments and enjoy turning 
-                    <span className="highlight">complex technical requirements</span> 
+                    <strong> complex technical requirements </strong> 
                     into clean, user-friendly solutions. 
-                    My journey blends academic excellence as a 
-                    <span className="highlight">Cum Laude IT graduate</span> 
+                    My journey blends academic excellence as an 
+                    <span className="highlight"> IT graduate </span> 
                     with real-world impact—bridging 
-                    <span className="highlight">full-stack technical knowledge</span>, 
-                    <span className="highlight">hands-on IT support</span>, 
-                    and <span className="highlight">customer service</span> 
+                    <strong> full-stack technical knowledge</strong>, 
+                    <strong> hands-on IT support</strong>, 
+                    and <strong>customer service </strong> 
                     to optimize system reliability, streamline processes, and deliver exceptional end-user support.
                 </p>
                 </div>
