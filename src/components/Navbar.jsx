@@ -3,6 +3,7 @@ import "../styles/Navbar.css";
 
 function Navbar() {
     const [activeSection, setActiveSection] = useState("hero");
+    const [menuOpen, setMenuOpen] = useState(false);
 
     const scrollToSection = (id) => {
         const el = document.getElementById(id);
@@ -38,40 +39,51 @@ function Navbar() {
         <nav className="navbar">
             <div className="nav-container">
                 <h1 className="nav-logo">Eli</h1>
-                <div className="nav-links">
+
+                <button
+                    className={`nav-toggle ${menuOpen ? 'open' : ''}`}
+                    aria-label="Toggle menu"
+                    onClick={() => setMenuOpen((s) => !s)}
+                >
+                    <span className="bar" />
+                    <span className="bar" />
+                    <span className="bar" />
+                </button>
+
+                <div className={`nav-links ${menuOpen ? 'open' : ''}`}>
                     <button
                         className={activeSection === "hero" ? "active" : ""}
-                        onClick={() => scrollToSection("hero")}
+                        onClick={() => { scrollToSection("hero"); setMenuOpen(false); }}
                     >
                         Home
                     </button>
                     <button
                         className={activeSection === "projects" ? "active" : ""}
-                        onClick={() => scrollToSection("projects")}
+                        onClick={() => { scrollToSection("projects"); setMenuOpen(false); }}
                     >
                         Projects
                     </button>
                     <button
                         className={activeSection === "about" ? "active" : ""}
-                        onClick={() => scrollToSection("about")}
+                        onClick={() => { scrollToSection("about"); setMenuOpen(false); }}
                     >
                         About
                     </button>
                     <button
                         className={activeSection === "skills" ? "active" : ""}
-                        onClick={() => scrollToSection("skills")}
+                        onClick={() => { scrollToSection("skills"); setMenuOpen(false); }}
                     >
                         Skills
                     </button>
                     <button
                         className={activeSection === "education" ? "active" : ""}
-                        onClick={() => scrollToSection("education")}
+                        onClick={() => { scrollToSection("education"); setMenuOpen(false); }}
                     >
                         Education
                     </button>
                     <button
                         className={activeSection === "experience" ? "active" : ""}
-                        onClick={() => scrollToSection("experience")}
+                        onClick={() => { scrollToSection("experience"); setMenuOpen(false); }}
                     >
                         Experience
                     </button>
