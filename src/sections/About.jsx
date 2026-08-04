@@ -1,6 +1,6 @@
 import '../styles/About.css';
 import SectionTitle from '../components/SectionTitle';
-import aboutPic from '../assets/about.webp'; // reuse your hero image or add a different one
+import aboutPic from '../assets/about.jpg'; // reuse your hero image or add a different one
 
 function About() {
     return (
